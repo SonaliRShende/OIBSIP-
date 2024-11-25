@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.hero {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/event-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+nav {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+nav .link a {
+    text-decoration: none;
+    color: white;
+    background-color:transparent;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+nav .link a:hover {
+    background-color: #696969;
+}
+
+.hero .content {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hero h1 {
+    font-size: 5em;
+    margin: 0;
+    color: #ffffff;
+}
